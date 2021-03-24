@@ -18,7 +18,8 @@ Then copy token, and paste it in EZbot.
 3. Author name, you can paste here your nickname, e.g. Maciejka, it will display it in help menu, and on command footers.\
 ![image](https://user-images.githubusercontent.com/80977526/112306165-ce136b80-8c9f-11eb-920f-a9c8698dcb2a.png)
 
-So yeah, thats basically it, you can choose then do you want to run your bot now, or later, also here are some protips:
+So yeah, thats basically it, you can choose then do you want to run your bot now, or later
+# Protips
 1. If you want to add bot to your server, use [this](https://discordapi.com/permissions.html) tool.
 2. If you want to change some values you added, or customize your bot, go to bot folder and enter 'config.json' file, there you can customize your bot **remember that this is early alpha version so some features may not work**
 3. App will automatically get your bot's username and use it as bot name as on the screenshot above.
