@@ -1,0 +1,26 @@
+{
+    "config": [
+        {
+            "token": "insertTokenHere",
+            "prefix": "!",
+            "authorName": "insertAutorNameHere",
+            "readReadmeTxt...": "...forMoreInfo"
+        }
+    ],
+    "botSettings": [
+        {
+            "botStatus": "I am [botName], nice to meet you!",
+
+            "welcomeMessageOn": "false",
+            "welcomeMessage": "Hello [user]! Please read rules, and have fun on [guild]!",
+            "welcomeMessageChannelId": "insertChannelIdHere",
+
+            "welcomeDmOn": "false",
+            "welcomeDm": "Hi! Welcome to [guild], this is example DM message.",
+
+            "leaveMessageOn": "false",
+            "leaveMessage": "[user] leaved us :cry:, we hope he/she will return!",
+            "leaveMessageChannelId": "insertChannelIdHere"
+        }
+    ]
+}
