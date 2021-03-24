@@ -2,7 +2,7 @@
     "config": [
         {
             "token": "insertTokenHere",
-            "prefix": "!",
+            "prefix": "Go to prefix.txt file to change prefix",
             "authorName": "insertAutorNameHere",
             "readReadmeTxt...": "...forMoreInfo"
         }
@@ -16,7 +16,7 @@
             "welcomeMessageChannelId": "insertChannelIdHere",
 
             "welcomeDmOn": "false",
-            "welcomeDm": "Hi! Welcome to [guild], this is example DM message.",
+            "welcomeDm": "Hi [user]! Welcome to [guild], this is example DM message.",
 
             "leaveMessageOn": "false",
             "leaveMessage": "[user] leaved us :cry:, we hope he/she will return!",

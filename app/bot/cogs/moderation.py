@@ -1,16 +1,18 @@
 import discord
 from discord.ext import commands
 import json
+import os
 
 class Moderation(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
 
+
     @commands.command()
     @commands.has_permissions(kick_members=True)
     async def kick(self, ctx, member : discord.Member, reason=None):
-        with open("features.json", "r") as fe:
+        with open(r"cogs\features.json", "r") as fe:
             if json.load(fe)["kick"]=="1":
                 with open("config.json") as f:
                     data = json.load(f)
@@ -39,7 +41,7 @@ class Moderation(commands.Cog):
     @commands.command()
     @commands.has_permissions(ban_members=True)
     async def ban(self, ctx, member : discord.Member, reason=None):
-        with open("features.json", "r") as fe:
+        with open(r"cogs\features.json", "r") as fe:
             if json.load(fe)["ban"]=="1":
                 with open("config.json") as f:
                     data = json.load(f)
@@ -67,8 +69,8 @@ class Moderation(commands.Cog):
 
     @commands.command()
     @commands.has_permissions(manage_messages=True)
-    async def clear(self, ctx, amount):
-        with open("features.json", "r") as fe:
+    async def clear(self, ctx, amount : int):
+        with open(r"cogs\features.json", "r") as fe:
             if json.load(fe)["clear"]=="1":
                 with open("config.json") as f:
                     data = json.load(f)

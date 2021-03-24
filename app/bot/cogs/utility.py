@@ -6,9 +6,10 @@ class Utility(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+
     @commands.command()
     async def user(self, ctx, member : discord.Member):
-        with open("features.json", "r") as fe:
+        with open(r"cogs\features.json", "r") as fe:
             if json.load(fe)["user"]=="1":
                 with open("config.json") as f:
                     data = json.load(f)
