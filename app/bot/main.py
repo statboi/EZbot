@@ -9,6 +9,11 @@ with open("config.json", "r") as f:
     data = json.load(f)
     for p in data["config"]:
         bot = commands.Bot(command_prefix = p["prefix"].replace("(", "").replace(")", ""))
+    try:
+        intents = discord.Intents.default()
+        intents.members = True
+    except: 
+        print("\033[1;31;40m[ERROR]\033[0;37;40m Bot may not work correctly, please enable server members intent in 'Bot' category in your application settings on Developer Portal")
     bot.remove_command('help')
 
 try:
