@@ -24,3 +24,5 @@ So yeah, thats basically it, you can choose then do you want to run your bot now
 2. If you want to change some values you added, or customize your bot, go to bot folder and enter 'config.json' file, there you can customize your bot **remember that this is early alpha version so some features may not work**
 3. App will automatically get your bot's username and use it as bot name as on the screenshot above.
 4. If you want to copy channel ID's (to enter it to config.json file as welcome/exit messages channels ***this feature is currently unavailable***) go to Discord settings > appearance > advanced > and turn on developer mode, then just right click on a channel and click "Copy ID"
+5. To make sure that bot will work properly (welcome and leave messages), enable server members intent in your 'Bot' settings page of your app on Discord Developer Portal
+![image](https://user-images.githubusercontent.com/80977526/112535925-1ff5e780-8dad-11eb-977f-13df40ad3e34.png)
