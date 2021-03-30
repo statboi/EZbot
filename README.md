@@ -6,6 +6,7 @@ EZbot is Python-based Discord bot maker, all you need to do is to host your bot,
 So, i bet you just wanted to make a bot, but you suck in coding and don't want to be lame using BotGhost? So you are in the right place.
 
 # Quickstart
+*I hope you got Python installed, if not, get it from [python.org website](https://python.org/) or [from Microsoft Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l)*\
 First (when you cloned/downloaded code) you'll need to "launch.py" file in app folder, it will install required packages if ran first time, and ask you for few things:
 1. Bot token, you may know what it is, but if you don't - don't worry, i will explain:\
 Bot token is just a pass used to login to bot Discord accounts, EZbot is open-source so you can see that it's not stealing your token.\
