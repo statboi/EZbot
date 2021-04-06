@@ -41,6 +41,10 @@ async def on_ready():
 @bot.event
 async def on_disconnect():
     print("\033[1;31;40m[Disconnected]\033[0;37;40m Error - Disconnected from Discord servers, please check your network or Discord servers status.")
+    
+@bot.event
+async def on_command_error(ctx, error):
+    await ctx.send(f"An error occured - {error}")
 
 @bot.event
 async def on_message(message):
