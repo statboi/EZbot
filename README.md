@@ -3,7 +3,7 @@ EZbot is Python-based Discord bot maker, all you need to do is to host your bot,
 
 # Remember that EZbot is still in early development, many features are unavailable and this is just a preview version.
 # Documentation:
-So, i bet you just wanted to make a bot, but you suck in coding and don't want to be lame using BotGhost? So you are in the right place.
+So, i bet you just wanted to make a bot, but you suck in coding and don't want to be cringe using BotGhost? So you are in the right place.
 
 # Quickstart
 *I hope you got Python installed, if not, get it from [python.org website](https://python.org/) or [from Microsoft Store](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l)*\
