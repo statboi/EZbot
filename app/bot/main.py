@@ -44,7 +44,10 @@ async def on_disconnect():
     
 @bot.event
 async def on_command_error(ctx, error):
-    await ctx.send(f"An error occured - {error}")
+    if isinstance(error, commands.CommandNotFound):
+        return
+    else:
+        await ctx.send(f"An error occured - {error}")
 
 @bot.event
 async def on_message(message):
